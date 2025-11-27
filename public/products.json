@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "arabic-coffee-special",
+      "name": "قهوة عربية خاصة",
+      "category": "قهوة",
+      "price": 60,
+      "unit": "500غ",
+      "description": "خلطة قهوة عربية خاصة محمصة طازجًا بنكهة متوازنة. مناسبة للتقديم اليومي والضيافة.",
+      "images": ["/images/coffee-arabic-1.jpg"],
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "slug": "yemeni-roasted-beans",
+      "name": "بن يمني محمص",
+      "category": "قهوة",
+      "price": 85,
+      "unit": "500غ",
+      "description": "بن يمني عالي الجودة بطحن وتحميص طازجين، بطعم غني ورائحة فواحة.",
+      "images": ["/بن.jpg"],
+      "stock": 35
+    },
+    {
+      "id": 3,
+      "slug": "mixed-spices",
+      "name": "بهارات مشكلة",
+      "category": "بهارات",
+      "price": 25,
+      "unit": "100غ",
+      "description": "خليط مختار من البهارات المتناسقة لإضافة نكهة مميزة لأطباقك.",
+      "images": ["/بهارات.png"],
+      "stock": 100
+    },
+    {
+      "id": 4,
+      "slug": "roasted-mixed-nuts",
+      "name": "مكسرات مشكّلة محمصة",
+      "category": "مكسرات",
+      "price": 45,
+      "unit": "250غ",
+      "description": "تشكيلة مختارة من المكسرات المحمصة بعناية لقرمشة وطعم لذيذ.",
+      "images": ["/مكسرات.webp"],
+      "stock": 80
+    }
+  ]
+}

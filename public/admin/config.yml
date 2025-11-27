@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/images"
+public_folder: "/images"
+locale: ar
+collections:
+  - name: "products"
+    label: "المنتجات"
+    label_singular: "منتج"
+    description: "إدارة المنتجات والأسعار والصور"
+    format: "json"
+    files:
+      - file: "public/products.json"
+        label: "قائمة المنتجات"
+        name: "products_file"
+        fields:
+          - label: "المنتجات"
+            name: "products"
+            widget: "list"
+            create: true
+            fields:
+              - { label: "المعرّف", name: "id", widget: "number" }
+              - { label: "المسار (slug)", name: "slug", widget: "string" }
+              - { label: "الاسم", name: "name", widget: "string" }
+              - { label: "التصنيف", name: "category", widget: "string" }
+              - { label: "السعر", name: "price", widget: "number" }
+              - { label: "الوحدة", name: "unit", widget: "string" }
+              - { label: "الوصف", name: "description", widget: "text" }
+              - label: "الصور"
+                name: "images"
+                widget: "list"
+                field: { label: "صورة", name: "image", widget: "image" }
+              - { label: "المخزون", name: "stock", widget: "number", required: false }
